@@ -1,4 +1,4 @@
-const app = require("./app"); // ✅ Not ./src/App
+const app = require("./src/App"); // ✅ Not ./src/App
 
 const PORT = process.env.PORT || 3000;
 
